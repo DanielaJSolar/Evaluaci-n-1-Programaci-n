@@ -1,0 +1,32 @@
+Algoritmo para el calculo de energía de un electrodomestico 
+
+1. Inicio
+2. Definir la potencia del dispositivo (en vatios)
+3. Establecer el tiempo de uso diario (en horas)
+4. Determinar la duración del período de cálculo (en días)
+5. Fin
+
+pseudocodigo 
+start 
+program calculateenergy
+// programa para calcular el consumo de energía en kwh
+constant float potencia_vatios = 1500 
+constant float horas_por_dia = 3  
+constant float dias_por_mes = 30  
+
+// convertir potencias a kilovatios
+variable float potencia_kilovatios = potencia_vatios / 1000
+
+// Convertir potencia a kilovatios
+variable float potencia_kilovatios = potencia_vatios / 1000
+
+// Calcular el consumo diario en kWh
+variable float consumo_diario_kwh = potencia_kilovatios * horas_por_dia
+
+// Calcular el consumo mensual en kWh
+variable float consumo_mensual_kwh = consumo_diario_kwh * dias_por_mes
+
+// Mostrar la información
+Display "El consumo mensual de energía es: ", consumo_mensual_kwh, " kWh"
+
+End
