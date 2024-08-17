@@ -1,0 +1,35 @@
+Algoritmo: Mostrar información de un libro
+1. iniciar
+2. Asignar el titulo del libro.
+3. Asignar el autor del libro.
+4. Asignar el precio del libro.
+5. Asignar el año de publicación del libro.
+6. Mostrar la informacion del libro
+7. finalizar
+
+Pseudocodigo del problema 1: Información de un libro
+
+//programa para mostrar informacion de un libro.
+inicio
+//Declarar variables:
+Declarare strint titulo
+Declarare strint autor 
+Declarare strint precio
+Declarare strint año
+// Asignar valores a las variables
+Titulo " cien años de soledad"
+autor " Gabriel Garcia Marquez"
+Precio " 39.999"
+año "1967"
+// Mostrar informacion del libro
+Display " mostrar el titulo del libro"
+input "titulo"
+Display " mostrar el autor del libro"
+unput "autor"
+Display " mostrar el precio del libro"
+input " precio"
+Display " mostrar el año de publicacion del libro"
+input " año de publicacion "
+fin 
+
+
